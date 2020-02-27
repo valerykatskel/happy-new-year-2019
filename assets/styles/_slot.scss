@@ -1,0 +1,55 @@
+.slot-wrapper {
+	background-color: #184074;
+	padding: 3px;
+	border-radius: 9px;
+	border: 2px solid #febb1d;
+	display: flex;
+}
+.slot-holder {
+	margin: 3px;
+	border-radius: 4px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+0,e5e5e5+8,ffffff+8,ffffff+50,e5e5e5+50,e5e5e5+83,ffffff+83,ffffff+96,e5e5e5+96,e5e5e5+100 */
+	background: #e5e5e5; /* Old browsers */
+	background: -moz-linear-gradient(top, #e5e5e5 0%, #e5e5e5 8%, #ffffff 8%, #ffffff 50%, #e5e5e5 50%, #e5e5e5 83%, #ffffff 83%, #ffffff 93%, #e5e5e5 93%, #e5e5e5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e5e5e5 0%,#e5e5e5 8%,#ffffff 8%,#ffffff 50%,#e5e5e5 50%,#e5e5e5 83%,#ffffff 83%,#ffffff 93%,#e5e5e5 93%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e5e5e5 0%,#e5e5e5 8%,#ffffff 8%,#ffffff 50%,#e5e5e5 50%,#e5e5e5 83%,#ffffff 83%,#ffffff 93%,#e5e5e5 93%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+.slot {
+	background: url("../images/reel_normal.png") repeat-y;
+	background-size: 100%;
+	width:70px;
+	height:100px;
+	background-position:0 0;
+	position: relative;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+.slot .name {
+	position: absolute;
+	bottom: -24px;
+	height: 13px;
+	color: #e13c3a;
+	font-size: 8px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1;
+	-webkit-transition: bottom 500ms; /* Safari */
+  	transition: bottom 500ms;
+}
+.slot .name.an-show,
+#result .slot .name{
+	bottom: -2px;
+}
+.slot .name span {
+	font-size: 7px;
+	font-family: "fbold";
+	z-index: 1;
+}
+.slot .name.an-show,
+#result .slot .name{
+	bottom: -2px;
+}

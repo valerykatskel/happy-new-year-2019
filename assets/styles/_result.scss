@@ -1,0 +1,71 @@
+#result {
+	margin:0;
+	font-size:18px;
+	font-weight:bold;
+	background: #fff;
+	position: absolute;
+    left: 20px;
+    right: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition: opacity 300ms; /* Safari */
+  	transition: opacity 500ms;
+  	left: 20px;
+    right: 20px;
+    width: auto;
+    min-width: 260px;
+	transform: scale(0,0);
+   -webkit-transition: all .5s ease-out; 
+   -moz-transition: all .5s ease-out; 
+   -o-transition: all .5s ease-out; 
+    transition: all .5s ease-out;
+    z-index: 20;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+    &.show {
+        opacity: 1;
+        transform: scale(1,1);
+    }
+
+    .logo{
+        margin-bottom: 8px;
+        text-align: center;
+        margin-top: 18px;
+    }
+
+    .content{
+        padding: 0 10px;
+        font-size: 13px;
+        text-align: center;
+        font-family: "fmedium";
+        font-weight: normal;
+        color: #184074;
+        margin-bottom: 15px;
+        line-height: 18px;
+    }
+    .slot {
+        .name{
+            bottom: -2px;
+        }
+    }
+    .combination{
+        width: 235px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .slot-wrapper{
+        border: none;
+    }
+}
+#result-close {
+    cursor: pointer;
+    background:url("../images/icon-close.svg") repeat-y 50%;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

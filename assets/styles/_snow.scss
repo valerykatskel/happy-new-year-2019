@@ -1,0 +1,30 @@
+#snow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background-image: url(../images/snow.png),
+	url(../images/snow1.png),
+	url(../images/snow2.png);
+	-moz-animation: snow 10s linear infinite;
+	-webkit-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+
+}
+
+@-moz-keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}
+
+@-webkit-keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}
+
+@keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}

@@ -1,0 +1,33 @@
+#sound-control {
+	width: 42px;
+	height: 42px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 24px;
+	top: 24px;
+	cursor: pointer;
+	z-index: 10;
+	&.volume-on {
+		.icon-on {
+			display: block;
+		}
+		.icon-off {
+			display: none;
+		}
+	}
+	img {
+		position: absolute;
+		top: 11px;
+	    left: 8px;
+	}
+	.icon-off {
+		left: 12px;
+		top: 12px;
+		display: block;
+	}
+
+	.icon-on {
+		display: none;
+	}
+}

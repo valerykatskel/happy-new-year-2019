@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'fbold';
+    src: local('Alegreya Sans Bold'), local('AlegreyaSans-Bold'), url('../fonts/Alegreyasansbold.woff2') format('woff2'), url('../fonts/Alegreyasansbold.woff') format('woff'), url('../fonts/Alegreyasansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fmedium';
+    src: local('Alegreya Sans Medium'), local('AlegreyaSans-Medium'), url('../fonts/Alegreyasansmedium.woff2') format('woff2'), url('../fonts/Alegreyasansmedium.woff') format('woff'), url('../fonts/Alegreyasansmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fregular';
+    src: local('Alegreya Sans'), local('Alegreya Sans'), url('../fonts/Alegreyasans.woff2') format('woff2'), url('../fonts/Alegreyasans.woff') format('woff'), url('../fonts/Alegreyasans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

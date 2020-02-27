@@ -1,0 +1,90 @@
+@import 'fonts';
+@import 'result';
+@import 'run-button';
+@import 'sound-control';
+@import 'snow';
+@import 'slot';
+@import 'tooltip-start';
+@import 'footer';
+
+html,body{
+	height: 100%;
+}
+body {
+	font-family: 'fregular';
+	background-color: #184074;
+	padding: 0;
+	margin: 0;
+}
+.postcard {
+	z-index: 15;
+}
+.postcard-wrapper {
+	-webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    z-index: 2;
+	background-image: url(../images/star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1080px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&.active {
+		background-image: url(../images/star-active.svg);
+	}
+}
+
+.bd {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../images/forest.svg);
+    background-repeat: repeat-x;
+    background-position: center bottom -35px;
+    min-height: 588px;
+    z-index: -15;
+	background-size: 1400px;
+	-webkit-transition: all 500ms; /* Safari */
+  	transition: all 500ms;
+}
+.bd .postcard-wrapper .container {
+	/* transform: scale(0,0); */
+	opacity: 0;
+	-webkit-transition: all 500ms; /* Safari */
+  	transition: all 500ms;
+}
+.bd.ready .container {
+    margin: 55px 0 0 0;
+    /* transform: scale(1,1); */
+    opacity: 1;
+}
+.container {
+    width: 234px;
+    margin: 150px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.motion {
+	background:url("../images/reel_blur.png") repeat-y;
+	background-size: 100%;
+}
+.clear {
+	clear:both;
+}
+
+@import 'media';

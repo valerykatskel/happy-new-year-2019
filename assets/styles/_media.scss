@@ -1,0 +1,148 @@
+
+@media (min-width: 400px) {
+	#tooltip-start {
+		width: 340px;
+		margin: 0px auto 0;
+	}
+	#result {
+		width: 340px;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+	#tooltip-start {
+		width: 650px;
+		margin: 0px auto 0;
+	}
+	#result {
+		width: 428px;
+	}
+
+	#tooltip-start p {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.slot {
+		background: url("../images/reel_normal.png") repeat-y;
+		background-size: 100%;
+		width:112px;
+		height:160px;
+	}
+	.postcard-wrapper {
+		background-size: 1610px;	
+	}
+	.bd {
+		background-position: center bottom -95px;
+	}
+	.slot .name span {
+		font-size: 13px;
+	}
+	.slot .name.an-show, #result .slot .name{
+		bottom: 4px;
+	}
+	.slot-wrapper {
+		border-width: 3px;
+	}
+	#result .combination {
+		width: 376px;
+		margin-bottom: 21px;
+	}
+	.slot-holder {
+		margin: 5px;
+	}
+	.slot-wrapper {
+		padding: 5px;
+	}
+	#result .content {
+		width: 360px;
+		font-size: 17px;
+		line-height: 24px;
+    	margin: 0 auto 23px auto;
+	}
+
+	.run-button button:after {
+		right: -3px;
+	    bottom: -12px;
+	    left: -3px;
+	}
+	.run-button button {
+		margin-top: 15px;
+		padding-left: 35px;
+    	padding-right: 35px;
+	}
+	#result .logo {
+		margin-bottom: 24px;
+		margin-top: 30px;
+	}
+	#result .logo img {
+		height: 125px;
+	}
+	#result-close {
+		right: 20px;
+		top: 20px;
+	}
+}
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1400px) {
+	.slot {
+		background: url("../images/reel_normal.png") repeat-y;
+		background-size: 100%;
+		width:140px;
+		height:200px;
+	}
+	.slot-wrapper {
+		border-width: 4px;
+	}
+	.run-button button:before {
+		bottom: -10px;
+	}
+	.run-button button:after {
+	    right: -4px;
+	    bottom: -14px;
+	    left: -4px;
+	}
+
+	#result {
+		width: 510px;
+	}
+	.postcard-wrapper {
+		background-size: 2070px;
+	}
+	.bd {
+		background-size: 100%;
+	}
+	#result .combination {
+	    width: 460px;
+	}
+	#result .content {
+    	width: 460px;
+    }
+    .postcard-footer .sharing{
+    	width: 100%;
+    	padding-bottom: 20px;
+    }
+    .postcard-footer .copyright {
+    	position: absolute;
+	    bottom: 17px;
+	    left: 15px;
+	    text-align: left;
+	    padding-bottom: 0;
+    }
+    .slot .name.an-show, 
+    #result .slot .name {
+	    bottom: 7px;
+	}
+    .postcard-footer {
+	    -webkit-flex: 0 0 44px;
+	    -ms-flex: 0 0 44px;
+	    flex: 0 0 44px;
+    }
+}
+@media (mmin-width: 1920px) {
+	
+}
